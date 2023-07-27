@@ -1,8 +1,8 @@
-module github.com/tebeka/selenium
+module github.com/la4zen/selenium
 
 go 1.12
 
-replace github.com/tebeka/selenium => github.com/la4zen/selenium
+replace github.com/tebeka/selenium => ../selenium
 
 require (
 	cloud.google.com/go v0.41.0
@@ -14,5 +14,6 @@ require (
 	github.com/google/go-cmp v0.3.0
 	github.com/google/go-github/v27 v27.0.4
 	github.com/mediabuyerbot/go-crx3 v1.3.1
+	github.com/tebeka/selenium v0.0.0-00010101000000-000000000000
 	google.golang.org/api v0.7.0
 )
