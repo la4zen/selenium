@@ -2,6 +2,8 @@ module github.com/la4zen/selenium
 
 go 1.20
 
+
+replace github.com/tebeka/selenium => github.com/la4zen/selenium latest
 require (
 	github.com/BurntSushi/xgbutil v0.0.0-20160919175755-f7c97cef3b4e
 	github.com/blang/semver v3.5.1+incompatible

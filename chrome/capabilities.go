@@ -15,8 +15,8 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
+	"github.com/la4zen/selenium/internal/zip"
 	"github.com/mediabuyerbot/go-crx3/pb"
-	"github.com/tebeka/selenium/internal/zip"
 )
 
 // CapabilitiesKey is the key in the top-level Capabilities map under which
