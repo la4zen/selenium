@@ -2,6 +2,8 @@ module github.com/tebeka/selenium
 
 go 1.12
 
+replace github.com/tebeka/selenium => github.com/la4zen/selenium
+
 require (
 	cloud.google.com/go v0.41.0
 	github.com/BurntSushi/xgbutil v0.0.0-20160919175755-f7c97cef3b4e
